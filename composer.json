@@ -1,0 +1,40 @@
+{
+    "name": "hamidreza2005/php-ip",
+    "description": "a package for get client's location by ip address in php",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "ip",
+        "php-ip",
+        "location",
+        "get_location"
+    ],
+    "authors": [
+        {
+            "name": "Hamidreza Hassani",
+            "email": "h.r.hassani2005@gmail.com",
+            "role" : "Developer"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~7",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "hamidreza2005\\phpIp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "hamidreza2005\\phpIp\\tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
