@@ -39,7 +39,7 @@ $ip->country() // return all client's country full name e.g Germany
 as you know there is not country fullname in ipinfo structure. so if want to use ipinfo driver and you want country fullname `e.g France` you can make a json file where you like and full `$JSON_FILE_PATH` like this :  
 ```php  
 <?php  
-use hamidreza2005\Ipinfo;
+use hamidreza2005\phpIp\Ipapi;
 $ip = new Ipinfo(API_TOKEN,"./file/path.json")
 ```  
 and for example  `path.json` file must be like this :  
